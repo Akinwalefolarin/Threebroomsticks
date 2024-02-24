@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<HTml:5>
+
+    <head>
+        <title>HTML5 Layout</title>
+        <meta name="description"
+        content="Layout General" />
+        <meta name="keywords"
+        content="HTML5 Layout" />
+        <meta http-equiv="author"
+        content="Akinwale Akinlade" />
+        <style type="text/css">
+            header,
+            section,
+            footer,
+            aside,
+            nav,
+            article,
+            figure,
+            figcaption {
+                display: block;
+            }
+
+            body {
+                color: #190a72;
+                background-color: #eedab2;
+                background-position: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                line-height: 1.4em;
+                margin: 0px;
+            }
+
+            .wrapper {
+                width: 940px;
+                margin: 20px auto 20px auto;
+                border: 2px solid #d84949;
+                background-color: #dd7777;
+            }
+
+            header {
+                height: 160px;
+            }
+
+            h1 {text-align: center;
+                width: 100%;
+                height: 90px;
+                margin: 0px;
+            }
+
+            nav {
+                clear: both;
+                color: rgb(34, 75, 75);
+                background-color: #159fd6;
+                height: 30px;
+            }
+
+            footer {
+                clear: both;
+                color: rgb(34, 75, 75);
+                background-color: #ee074c;
+                height: 50px;
+            }
+
+            nav ul {
+                text-align: center;
+                margin: 0px;
+                padding: 5px 0px 5px 30px;
+            }
+
+            nav li {
+                display: inline;
+                margin-right: 40px;
+            }
+
+            nav li a {
+                color: #ffffff;
+            }
+
+            nav li a: :hover,
+            nav li a.current {
+                color: #000000;
+            }
+
+            section.courses {
+                float: left;
+                width: 659px;
+                border-right: 1px solid #eeeeee;
+            }
+
+            article {
+                clear: both;
+                overflow: auto;
+                width: 100%;
+            }
+
+            hgroup {
+                margin-top: 40px;
+            }
+
+            figure {
+                float: left;
+                width: 290px;
+                height: 220px;
+                padding: 5px;
+                margin: 20px;
+                border: 1px solid #dd7777;
+            }
+
+            figcaption {
+                font-size: 90%;
+                text-align: left;
+            }
+
+            aside {
+                width: 230px;
+                float: left;
+                padding: 0px 0px 0px 20px;
+            }
+
+            aside section a {
+                display: block;
+                padding: 10px;
+                border-bottom: 1px solid #eeeeee;
+            }
+
+            aside section a:hover {
+                color: #16ca52;
+                background-color: #efefef;
+            }
+
+            a {
+                color: #0aafaf;
+                text-decoration: #159fd6 dotted;
+            }
+
+            h1,
+            h2,
+            h3 {
+                font-weight: normal;
+            }
+
+            h2 {
+                margin: 0px 0px 10px 0px;
+                color: #33ca77;
+            }
+
+            aside h2 {
+                padding: 30px 0px 10px 0px;
+                color: #16ca52;
+            }
+
+            footer {
+                font-size: 80%;
+                padding: 7px 0px 0px 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1><img src="../Logo.png" height="75px" width="75px"/>Wura's Kitchen</h1>
+                <nav>
+                    <ul>
+                        <li><a href="" class="current">Home</a></li>
+                        <li><a href="../Wale's unique html/videos.html">Classes</a></li>
+                        <li><a href="../Wale's unique html/images.html">Catering</a></li>
+                        <li><a href="../Wale's unique html/Relative Links.html">About</a></li>
+                        <li><a href="../Wale's unique html/my primary link.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <article>
+                <figure>
+                    <img src="../Screen Food.jpg" width="224px" height="132px" alt="Outer-Party Broth" />
+                    <figcaption>Light Broth</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Oceanian Vegetarian</h2>
+                    <h3>Five Week Course in the Ministry of Love</h3>
+                </hgroup>
+                <p>A Five-week introduction to Continental
+                    Oceanian meatless meals, teaching you a
+                    selection of tasteless and watery dishes
+                </p>
+            </article>
+            <article>
+                <figure>
+                    <img src="../blog-types-pizza_in-blog-8.jpg" alt="Inner Party Meat Saucy Pizza" height="200px"
+                        width="200px" />
+                    <figcaption>Spanish Sauce</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Sauces Masterclass</h2>
+                    <h3>One-day Course</h3>
+                </hgroup>
+                <p>An intensive one-day curse to take you through
+                    all most-frequently eaten Oceanian dishes which would make Big Brother himself DOUBLETHINK!
+                </p>
+            </article>
+            <aside>
+                <section class="popular recipes">
+                    <h2>Popular Recipes</h2>
+                    <a href="">Inner Party Sukshi (Grilled Chicken)</a>
+                    <a href="">Tampion (Unleavened pancakes)</a>
+                    <a href="">Ontoction (Soupy Pancakes)</a>
+                    <a href="">Meidoshika Special (Chicken Stew)</a>
+                </section>
+                <section class="contact-details">
+                    <h2>Contact</h2>
+                    <p>Wura's Kitchen<br />
+                        14 Ajijola Street<br />
+                        Oki<br />
+                        Ibadan</p>
+                </section>
+            </aside>
+            <footer>
+                &copy; 2011 Wura's Kitchen
+                <a href="Oluyole.html"><sm>&copy; Oluyole Showroom</sm></a><br>
+                <a href="Rodrigo's Shop.html"><sm>&copy; Three Broomsticks</sm></a>
+            </footer>
+        </div><!-- .wrapper-->
+    </body>
+</HTml:5>

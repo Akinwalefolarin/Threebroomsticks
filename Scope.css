@@ -1,0 +1,245 @@
+<!DOCTYPE css>
+<css>
+    <style type="text/css">
+            header,
+            section,
+            footer,
+            aside,
+            nav,
+            article,
+            figure,
+            figcaption {
+                display: block;
+            }
+
+            body {
+                color: #d1f1cc;
+                background-color: #11381a;
+                background-position: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                line-height: 1.4em;
+                margin: 0px;
+            }
+
+            .wrapper {
+                width: 940px;
+                margin: 20px auto 20px auto;
+                background-image: url(Background\ .jpg);
+                border: 2px solid #891299;
+                background-color: #103122;
+            }
+
+            header {
+                height: 160px;
+            }
+
+            h1 {text-align: center;
+                padding-top: 10px;
+                width: 100%;
+                height: 90px;
+                margin: 0px;
+            }
+            th, td {
+                padding: 7px 10px 35px 25px;
+                border: 1px dotted #e72107;
+                margin: 10px;
+                
+                            }
+            th {width: 149px;}
+            se {
+                color: #78d354;
+                text-decoration: underline;
+            }
+                
+            div.shop {
+                display: block;
+                gap: 5px;
+                border: 2px inset #5cecab;
+                overflow: auto;
+                width: 99.6%;
+                height: fixed 190px;
+                align: center;
+            }
+            sd {
+                color: #fad815;
+                align-content: center;
+            }
+            figcaption {
+                align-content: center;
+                color: #d1f1cc;
+            }
+            nav {
+                clear: both;
+                height: 30px;
+            }
+
+            footer {
+                clear: both;
+                color: rgb(34, 75, 75);
+                background-color: #ee074c;
+                height: 30px;
+            }
+
+            nav ul {
+                text-align: center;
+                margin: 0px;
+                padding: 5px 0px 5px 30px;
+            }
+
+            nav li {
+                display: inline;
+                margin-right: 40px;
+            }
+
+            nav li a {
+                color: #ffffff;
+            }
+
+            nav li a: :hover,
+            nav li a.current {
+                color: #000000;
+            }
+
+            section.courses {
+                float: left;
+                width: 659px;
+                border-right: 1px solid #eeeeee;
+            }
+
+            article {
+                clear: both;
+                overflow: auto;
+                width: 50%;
+            }
+            article.Bonus {
+                position: absolute;
+                top: 150px;
+                left: 850px;
+                width: 22%;
+            }
+            article.Bonus a {
+                color: #f8cc08
+            }
+            .wrappe {
+                width: 940px;
+                margin: 20px auto 20px auto;
+                background-image: url(Ball.jpeg);
+                border: 2px solid #891299;
+                background-color: #103122;
+            }
+            hgroup {
+                margin-top: 40px;
+            }
+            article.about {
+                width: 900px;
+                color: #dac5c5;
+                border: #abddb7;
+            }
+            article.about p {
+                color: #b4ebc1;
+            }
+            article.about h2 {
+                color: forestgreen;
+            }
+            sf {
+                color: rgb(160, 16, 16);
+            }
+            input[type="button"] {
+                background-color: gold;
+                color: rgb(13, 5, 124);
+                border: #dd0909 3px inset;
+                font-size: 14px;
+                
+            }
+            p {
+                padding-top: 8px;
+                float: inline-start;
+                font-family: cursive;
+                color: #d1f1cc;
+            }
+            p2 {
+                float: right;
+                margin-top: 0px;
+                padding-top: 0px;
+            }
+            figure {
+                float: left;
+                width: fit-content;
+                height: fit-content;
+                padding: 5px;
+                margin: 20px;
+                border: 5px inset #dac5c5;
+            }
+            sm {
+                text-align: center;
+                color: rgb(21, 212, 94);
+            }
+           
+            a:link {
+                font-size: large;
+                color: rgb(124, 211, 226);
+               }
+               a {
+                cursor: pointer;
+                color: rgb(63, 137, 235);
+                             }
+               a:hover {
+                color: crimson;
+                text-decoration: transparent;
+               }
+               a:active {
+                color: blue;
+                text-decoration: double;
+               }
+            aside {
+                width: 230px;
+                float: right;
+                padding: 0px 0px 0px 20px;
+            }
+
+            aside section a {
+                display: block;
+                padding: 10px;
+                border-bottom: 1px solid #eeeeee;
+            }
+
+            aside section a:hover {
+                color: #16ca52;
+                background-color: #efefef;
+            }
+
+            nav a.active {
+                color: #33a06a;
+                text-decoration: #d64c15 dotted;
+            }
+
+            h1,
+            h2,
+            h3 {
+                font-weight: normal;
+            }
+
+            h2 {
+                margin: 0px 0px 10px 0px;
+                color: #ca3333;
+            }
+            h3 {
+                color: #16ca52;
+            }
+
+            aside h2 {
+                padding: 30px 0px 10px 0px;
+                color: #16ca52;
+            }
+
+            footer {
+                font-size: 80%;
+                padding: 7px 0px 0px 20px;
+                width: 98%;
+                height: 50px;
+            }
+            footer sm {
+                font-size: smaller;
+            }
+        
+</css>
